@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pagetwo">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="19dp"
+        android:elevation="21sp"
+        app:cardCornerRadius="21sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="21sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tahir Shaikh"
+            android:id="@+id/nameone"
+            android:textSize="21sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="21sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="37dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailone"
+            android:text="tahir@tahir.com"
+            android:textSize="21sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="37dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOB:"
+            android:textSize="21sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="67dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/02/2201"
+            android:id="@+id/dobone"
+            android:textSize="21sp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="67dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

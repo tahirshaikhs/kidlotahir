@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "102696687512",
+    "project_id": "tahirkidlo",
+    "storage_bucket": "tahirkidlo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102696687512:android:845d389c729224b10afded",
+        "android_client_info": {
+          "package_name": "com.tahir.tahirkidlo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102696687512-ft5um80adnsrs4n2e83tqnhsq7b4ug5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Ju9cE2fUR5i2ydLPOzcqboay7hc2zo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102696687512-ft5um80adnsrs4n2e83tqnhsq7b4ug5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
